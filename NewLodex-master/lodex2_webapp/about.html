@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Fogli di stile -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;   
+}
+
+.bg-dark {
+    background-color: #9bc8f5!important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+}
+.close {
+    float: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    margin-left: 10px;
+    margin-top: 10px;}
+</style>
+</head>
+
+<body>
+    
+
+ <div> <a href="/lodex2/ok" class="close" role="button" aria-pressed="true" aria-label="Close"><span aria-hidden="true">&times;</span></a></div>
+    <div class="container">
+            <h1 class="text1 text-center">Open Data and Linked Open Data</h1>
+   <p></p>
+    <h2 class="text-center font-italic">What is Linked Data?</h2>
+    </div>
+    <p></p>
+    <div class="lista">    <p class="text-center">
+    <a href="https://www.youtube.com/watch?v=4x_xzT5eF5Q">Here it is possible to find a video that explains what linked data are.</a>
+    </p>    <p style="text-align: justify;">&nbsp;In its most common usage, Linked Data refers to the use of RDF technologies to make data available on the web. More specifically, it is about linking together multiple distinct datasets using a common set of URIs, such that they can be easily integrated together using the same technology.</p>    <p style="text-align: justify;">The primary advantage of making data available in this form is that it makes it much easier for programmatic queries to be executed over multiple datasets by a computer. This is because it does not require a human to first create special code to understand the syntax (e.g. file formats) of the data. By breaking down these syntactic barriers, the process of data integration becomes concentrated on the meaning or semantics of the data themselves, and these semantics are made explicit in the data. For this reason, RDF datasets on the web are sometimes collectively referred to as the Semantic Web.</p>    <p style="text-align: justify;">Nowadays, there has been an increment of open data government initiatives promoting the idea that particular data produced by public administrations (such as public spending, health care, education etc.) should be freely published. However, the great majority of these resources is published in an unstructured format (such as spreadsheets or CSV) and is typically accessed only by closed communities.</p>    <p style="text-align: justify;">Starting from these considerations, we propose a semi-automatic experimental methodology for facilitating resource providers in publishing public data into the Linked Open Data (LOD) cloud, and for helping consumers (companies and citizens) in efficiently accessing and querying them. The methodology has been applied on a set of data provided by the Research Project on Youth Precariousness, of the Modena municipality, Italy.</p>    <h1 style="text-align: center;">LODeX</h1>    <p>&nbsp;The Linked Open Data (LOD) Cloud has more than tripled its sources in just three years (from 295 sources in 2011 to 1014 in 2014). While the LOD data are being produced at a staggering rate, the development of tools that make these data accessible to users did not follow the same trend. In particular, LOD tools lack in producing a high level representation of a dataset, and in supporting users in the exploration and querying of a source (the majority provides a SPARQL query interface). To overcome the above problems and significantly increase the number of consumers of LOD data, we devised a new method and a tool, LODeX. LODeX is able to automatically provide a high level summarization of a LOD dataset, including its inferred schema, and a powerful visual query interface to support users in querying/analyzing the dataset. By means of the visual interface, the user can inspect the schema/instances of a LOD source, formulate a visual query, see the automatically generated SPARQL query (to be submitted to the SPARQL endpoint) and view the query result in different display modes. Moreover, he/she can easily refine the visual query on which he/she is working until the result is satisfactory.</p>    <p class="text-center">
+    <a  href="https://www.youtube.com/watch?v=jM8vM28o3fI">Here is a video tutorial of the last release of LODeX</a>.</p>    <p>In this video is presented LODeX 2.0, a tool for visualizing, browsing and querying a LOD source starting from the URL of its SPARQL endpoint. The 2.0 release enhances LODeX 1.0, which provided a schema summary of a LOD source, with the capabilities of showing a view of the schema/instances of a LOD source and composing a visual query by navigating through this view, so that the user can easily build and refine his/her query.</p>    <p>Here is the <a href="http://dbgroup.unimo.it/lodex2">link</a>.</p>   
+    <p></p>
+      <strong>If you want to deepen here are some publications:</strong>  <p></p>  <p>
+    <a href="http://ceur-ws.org/Vol-1267/LD4IE2014_Benedetti.pdf">Online Index Extraction from Linked Open Data Sources</a>.</p>    <p>
+    <a href="http://ceur-ws.org/Vol-1272/paper_136.pdf">A Visual Summary for Linked Open Data sources</a>.</p>    <p>
+    <a href="http://www.semantic-web-journal.org/content/visual-querying-lod-sources-lodex">Visual Querying LOD sources with LODeX</a>.</p>    <h2>
+    <br>  Ongoing Funded Projects</h2>    <ul>  	<li>
+    <a href="http://acmnew60.unimore.it/site/home/research/projects/articolo56035055.html">Open linked data dell'Osservatorio Giovani della Regione Emilia-Romagna</a>
+    </li></ul></div>
+       <!-- jQuery e plugin JavaScript  -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+      
+ 
+ </body>
+     
+        </html>
